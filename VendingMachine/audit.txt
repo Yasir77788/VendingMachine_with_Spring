@@ -1,0 +1,7 @@
+2022-07-30T21:48:54.420861800 : Item with id 0 out of stock.
+2022-07-30T21:49:17.637166300 : Item with id 0 out of stock.
+2022-07-30T21:50:00.236687300 : Item with id 1 out of stock.
+2022-07-30T21:55:26.164421700 : Item with id 0 out of stock.
+2022-07-30T21:57:10.838598500 : Item with id 0 out of stock.
+2022-07-30T22:02:40.364156800 : Item with id 0 out of stock.
+2022-07-30T22:04:30.992088400 : Item with id 0 out of stock.

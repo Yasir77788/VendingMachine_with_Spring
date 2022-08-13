@@ -1,0 +1,7 @@
+Mars,120,2
+Twix,130,2
+Tayto,100,3
+Walkers,110,5
+Cola,160,4
+Fanta,155,2
+Rolo,125,6
