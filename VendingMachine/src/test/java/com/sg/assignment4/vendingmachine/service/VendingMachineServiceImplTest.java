@@ -15,10 +15,10 @@ public class VendingMachineServiceImplTest {
     private VendingMachineService service;
 
     public VendingMachineServiceImplTest () {
-//        VendingMachineDao dao = new VendingMachineDaoStubImpl();
-//        VendingMachineAuditDao auditDao = new VendingMachineAuditDaoStubImpl();
-//
-//        service = new VendingMachineServiceImpl(dao, auditDao);
+          VendingMachineDao dao = new VendingMachineDaoStubImpl();
+          VendingMachineAuditDao auditDao = new VendingMachineAuditDaoStubImpl();
+  
+          service = new VendingMachineServiceImpl(dao, auditDao);
 
         ApplicationContext ctx =
                 new ClassPathXmlApplicationContext("applicationContext.xml");
@@ -29,16 +29,16 @@ public class VendingMachineServiceImplTest {
     @Test
     public void testGetAllItems() throws Exception {
         // ARRANGE
-//        Item testClone = new Item("Fanta");
-//        testClone.setItemCost(199);
-//        testClone.setNumOfItemsInInventory(20);
+          Item testClone = new Item("Fanta");
+          testClone.setItemCost(199);
+          testClone.setNumOfItemsInInventory(20);
 
 
         // ACT & ASSERT
         assertEquals( 1, service.getAllItemsFromService().size(),
                 "Should only have one Item.");
-//        assertTrue( service.getAllItemsFromService().contains(testClone),
-//                "The one Item should be Fanta.");
+          assertTrue( service.getAllItemsFromService().contains(testClone),
+                  "The one Item should be Fanta.");
     }
 
 
